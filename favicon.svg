@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Seya's Sites favicon">
+  <rect width="64" height="64" rx="12" fill="#050608"/>
+  <path d="M14 18h36v28H14z" fill="#0b0d12" stroke="#2f5da8" stroke-width="2"/>
+  <path d="M20 24h4v4h-4zM26 24h4v4h-4zM32 24h4v4h-4zM38 24h6v4h-6z" fill="#477ee8"/>
+  <path d="M18 34h8v4h-8zM30 34h14v4H30zM22 42h20v4H22z" fill="#ffffff" opacity=".88"/>
+  <path d="M48 13l6 5-6 5M16 13l-6 5 6 5" fill="none" stroke="#ff5fc8" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"/>
+  <text x="32" y="39" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700" fill="#ffffff">SS</text>
+  <rect x="46" y="42" width="4" height="8" fill="#ff5fc8"/>
+</svg>
