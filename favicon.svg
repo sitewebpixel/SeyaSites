@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Seya's Sites favicon">
-  <rect width="64" height="64" rx="12" fill="#050608"/>
-  <path d="M14 18h36v28H14z" fill="#0b0d12" stroke="#2f5da8" stroke-width="2"/>
-  <path d="M20 24h4v4h-4zM26 24h4v4h-4zM32 24h4v4h-4zM38 24h6v4h-6z" fill="#477ee8"/>
-  <path d="M18 34h8v4h-8zM30 34h14v4H30zM22 42h20v4H22z" fill="#ffffff" opacity=".88"/>
-  <path d="M48 13l6 5-6 5M16 13l-6 5 6 5" fill="none" stroke="#ff5fc8" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"/>
-  <text x="32" y="39" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700" fill="#ffffff">SS</text>
-  <rect x="46" y="42" width="4" height="8" fill="#ff5fc8"/>
+  <rect width="64" height="64" rx="10" fill="#050608"/>
+  <path d="M8 8h48v48H8z" fill="#0b0d12" stroke="#2f5da8" stroke-width="2"/>
+  <path d="M12 12h4v4h-4zM48 12h4v4h-4zM12 48h4v4h-4zM48 48h4v4h-4z" fill="#ff5fc8"/>
+  <path d="M18 18h20v6H24v6h14v6H18V18z" fill="#ff8bd6"/>
+  <path d="M18 38h20v8H18z" fill="#ff8bd6"/>
+  <path d="M28 24h10v6H28zM18 36h10v4H18z" fill="#477ee8"/>
+  <path d="M38 18h16v6H44v6h10v6H38V18z" fill="#477ee8"/>
+  <path d="M38 38h16v8H38z" fill="#477ee8"/>
+  <path d="M44 24h10v6H44zM38 36h8v4h-8z" fill="#ff8bd6"/>
+  <path d="M6 28h6v8H6zM52 28h6v8h-6z" fill="#ffffff" opacity=".75"/>
 </svg>
