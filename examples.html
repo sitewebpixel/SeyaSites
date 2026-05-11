@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examples | Seya's Sites</title>
+    <meta name="description" content="Examples of websites made by Seya's Sites." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="page-shell">
+      <header class="site-header" data-reveal>
+        <a class="brand" href="index.html" aria-label="Home">
+          <span class="brand-mark">S</span>
+          <span class="brand-text">Seya's Sites</span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="services.html">Services</a>
+          <a href="examples.html">Examples</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="process.html">Process</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="nav-cta" href="mailto:cosmenseya@yahoo.com?subject=Website%20Project%20Inquiry">Start Project</a>
+      </header>
+
+      <main class="subpage">
+        <section class="section examples-section split-page-hero">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Examples</p>
+            <h1>Sites I have <span class="pink-glow">made</span>.</h1>
+          </div>
+
+          <div class="mini-visual examples-visual" data-reveal aria-hidden="true">
+            <div class="mini-browser browser-one"></div>
+            <div class="mini-browser browser-two"></div>
+            <div class="mini-badge">Live previews</div>
+          </div>
+
+          <div class="example-grid">
+            <a class="example-card example-one" href="https://www.off-keymedia.com/" target="_blank" rel="noopener" data-reveal>
+              <div class="browser-preview live-preview">
+                <div class="browser-bar"><span></span><span></span><span></span></div>
+                <iframe title="Off-Key Media website preview" src="https://www.off-keymedia.com/" loading="lazy"></iframe>
+                <span class="visit-badge">Click to visit</span>
+              </div>
+              <div class="example-copy">
+                <span class="card-kicker">Example Site 01</span>
+                <h3>Off-Key Media</h3>
+                <p>A live website made for a media service.</p>
+              </div>
+            </a>
+
+            <a class="example-card example-two" href="https://sitewebpixel.github.io/AliciaTeethGemz/" target="_blank" rel="noopener" data-reveal>
+              <div class="browser-preview live-preview">
+                <div class="browser-bar"><span></span><span></span><span></span></div>
+                <iframe title="Alicia Teeth Gemz website preview" src="https://sitewebpixel.github.io/AliciaTeethGemz/" loading="lazy"></iframe>
+                <span class="visit-badge">Click to visit</span>
+              </div>
+              <div class="example-copy">
+                <span class="card-kicker">Example Site 02</span>
+                <h3>Alicia Teeth Gemz</h3>
+                <p>A live site example made for a beauty service.</p>
+              </div>
+            </a>
+
+            <article class="example-note" data-reveal>
+              <span class="card-kicker">This Website</span>
+              <h3>Seya's Sites</h3>
+              <p>I also made the website you are looking at right now, so this page is part of my work too.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Seya's Sites. Custom websites built from scratch.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
