@@ -838,6 +838,7 @@ h3 {
 
 .details-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
 }
 
 .service-card,
@@ -862,6 +863,12 @@ h3 {
 .service-card,
 .detail-card {
   min-height: 230px;
+}
+
+.details-section,
+.details-grid,
+.detail-card {
+  overflow: visible;
 }
 
 .service-card span,
@@ -1434,6 +1441,17 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .details-section {
+    overflow: visible;
+  }
+
+  .details-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    overflow: visible;
+  }
+
   .service-card,
   .detail-card,
   .example-note,
@@ -1442,6 +1460,13 @@ h3 {
     min-height: auto;
     padding: 20px;
     border-radius: var(--radius-lg);
+  }
+
+  .detail-card {
+    display: block;
+    width: 100%;
+    opacity: 1;
+    transform: none;
   }
 
   .example-card {
